@@ -10,10 +10,10 @@ Grandes telas : acima de 1200px
 
 */
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 768px) {
     
     body {
-        background-image: linear-gradient(to top, #49a09d, #000000);
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
     
     #login {
@@ -48,5 +48,10 @@ Grandes telas : acima de 1200px
         float: left;
         width: 50%;
     }
-    
+    #form > h1 {
+        font-size: 2em;
+    }
+    #form > p {
+        font-size: 1.2em;
+    }
 }
